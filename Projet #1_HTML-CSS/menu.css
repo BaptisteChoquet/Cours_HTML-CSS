@@ -1,0 +1,57 @@
+body{
+    background-color: #000000;
+}
+
+.menu{
+    color: #FFFFFF;
+
+}
+.menu ul{
+    display: none;
+    color: #000000;
+}
+
+.SubmenuFender:hover ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuFender:focus ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuGibson:hover ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuGibson:focus ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuIbanez:hover ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuIbanez:focus ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuYamaha:hover ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+.SubmenuYamaha:focus ul{
+    display: block;
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+body
+{
+    background-color: #FFC0CB;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+}
+
+img {
+    bottom: 0px;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.flex-container {
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-align {
+    right: 50px;
+    font-family: monospace;
+    text-align: right;
+}
+
+figcaption {
+    text-align: center;
+}

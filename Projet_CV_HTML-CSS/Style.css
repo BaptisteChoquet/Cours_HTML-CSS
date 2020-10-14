@@ -1,0 +1,91 @@
+html{
+    background: rgb(42,42,43);
+    background: linear-gradient(180deg, rgba(42,42,43,1) 0%, rgba(113,113,116,1) 32%, rgba(168,206,214,1) 100%);
+}
+
+header{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+header img{
+    display: block;
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 1px groove black;
+}
+
+aside{
+    background-color: crimson;
+    align-content: flex-end;
+}
+
+.enTete{
+    text-align: left;
+    max-width: 88%;
+    max-height: 88%;
+    align-items: flex-end;
+}
+
+#Container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px groove #333;
+}
+
+#Container section{
+    padding: 10px;
+}
+
+.Exp{
+    text-align: right;
+    background: rgb(182,182,203);
+    background: linear-gradient(191deg, rgba(182,182,203,1) 0%, rgba(157,157,158,1) 32%, rgba(90,92,92,1) 100%);
+    border-radius: 20px;
+    float: left;
+    padding-right: 2%;
+    margin-left: 1%;
+    max-width: 48%;
+    margin-right: 2%;
+    border: 1px groove black;
+}
+
+.Comp{
+    background: rgb(182,182,203);
+    background: linear-gradient(191deg, rgba(182,182,203,1) 0%, rgba(157,157,158,1) 32%, rgba(90,92,92,1) 100%);
+    border-radius: 20px;
+    padding-right: 2%;
+    margin-left: 1%;
+    float: left;
+    max-width: 48%;
+    border: 1px groove black;
+}
+
+.Détails{
+    text-align: right;
+    background-color: hotpink;
+    border-radius: 10px;
+    padding: 0.5%;
+    max-width: 30%;
+    max-height: 25%;
+    border: 1px groove black;
+}
+
+a{
+    color: #404040;
+    text-decoration: none;
+}
+
+a>div{
+    display: none;
+}
+
+a:hover>div{
+display: block;
+}
+
